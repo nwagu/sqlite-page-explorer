@@ -25,7 +25,7 @@ It's also a zip file that contains the Lua code that runs the app, parses the da
 
 ## How to install
 
-* Download `sqlite-page-explorer.com` from the releases. 
+* Download `sqlite-page-explorer.com` from the [releases](https://github.com/QuadrupleA/sqlite-page-explorer/releases/). 
 * On Unix-likes, `chmod +x`. 
 * Drag a database file to it, or run it on the console: `sqlite-page-explorer.com mySqliteDatabase.db`. The app should open in a browser tab.
 * When you're done, hit Ctrl-C twice in the console.
