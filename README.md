@@ -3,7 +3,8 @@
 A small GUI application built in [redbean](https://redbean.dev/) that lets you explore your [SQLite](https://sqlite.com/) databases "page by page" the way SQLite sees them.
 
 ![Top-level view](https://github.com/QuadrupleA/sqlite-page-explorer/blob/github_media/github_media/top_view.png)
-![Page detail view](https://github.com/QuadrupleA/sqlite-page-explorer/blob/github_media/github_media/page_view.png)
+
+---
 
 ## Why?
 
@@ -29,7 +30,7 @@ It's also a zip file that contains the Lua code that runs the app, parses the da
 * Drag a database file to it, or run it on the console: `sqlite-page-explorer.com mySqliteDatabase.db`. The app should open in a browser tab.
 * When you're done, hit Ctrl-C twice in the console.
 
-You might get virus warnings - αcτµαlly pδrταblε εxεcµταblεs seem to freak out browsers, operating system virus detection, etc. and generate false positives. I trust [jart](https://github.com/jart/) is not propagating malware here, and some notable projects like llamafile are using these same polyglot binary techniques, but take your usual precautions with anything you download off the internet. 
+You might get virus warnings - αcτµαlly pδrταblε εxεcµταblεs seem to freak out browsers, operating system virus detection, etc. and generate false positives. I trust [jart](https://github.com/jart/) is not propagating malware here, and some notable projects like [llamafile](https://github.com/Mozilla-Ocho/llamafile) are using these same polyglot binary techniques, but take your usual precautions with anything you download off the internet. 
 
 Also if you throw a large database at it (500 MB or more) it will likely be slow to load the top-level view, which reads every page.
 
