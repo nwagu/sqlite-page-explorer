@@ -10,7 +10,7 @@ A small GUI application built in [redbean](https://redbean.dev/) that lets you e
 
 SQLite (and most databases) store data in disk-block-sized pages, usually 4KB, which helps make reads and writes as fast as possible.
 
-Normally developers interact with databases on the "schema level" - tables, rows, and SQL. But taking a peek at the "page level" can gigg you some interesting insights:
+Normally developers interact with databases on the "schema level" - tables, rows, and SQL. But taking a peek at the "page level" can give you some interesting insights:
 
 * What your indexes actually look like on disk (they're basically separate little tables).
 * How to store things more compactly (and thus make your queries and applications faster).
