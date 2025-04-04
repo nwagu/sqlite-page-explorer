@@ -56,7 +56,7 @@ function utils.GetPageLink(pageNumber)
     if not pageNumber or pageNumber < 1 then
         return pageNumber
     end
-    return '<a href="/page.lua?p=' .. pageNumber .. '">' .. pageNumber .. '</a>'
+    return '<a href="javascript:void(0);" onclick="loadPageDetails(' .. pageNumber .. ')">' .. pageNumber .. '</a>'
 end
 
 
@@ -412,7 +412,7 @@ function utils.WritePageFooter()
                         const integer = parseInt(cells[3].textContent, 10);
                         const fifthCellText = cells[4].textContent.trim().toLowerCase();
                         if (!isNaN(integer) && fifthCellText.startsWith('create')) {
-                            cells[3].innerHTML = `<a href="/page.lua?p=${integer}">${integer}</a>`;
+                            cells[3].innerHTML = `<a href="javascript:void(0);" onclick="loadPageDetails(${integer})">${integer}</a>`;
                         }
                     });
                 });
